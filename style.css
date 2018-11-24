@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+}
+
+header {
+  min-height: 100vh;
+  background-color: #07080a;
+  color: white;
+}
+
+nav {
+  background-color: rgb(51, 48, 45);
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+header main {
+  padding-top: 6rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header img {
+  padding-top: 2rem;
+  height: 30rem;
+}
+
+.about-me {
+  padding: 6rem 0;
+  background-color: rgb(230, 230, 230);
+  color: black;
+  line-height: 1.7;
+}
+
+h1 {
+  padding-top: 1.35rem;
+  text-transform: none;
+  letter-spacing: .18rem;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 10;
+}
+
+article p {
+  font-size: 1rem;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.projects {
+  padding-top: 6rem;
+  padding-left: 2.2rem 0;
+  background-color: rgb(215, 215, 215);
+}
+
+.projects img {
+  width: 20%;
+  padding: 40px 40px 40px 0;
+}
+
+footer {
+  padding: 2rem;
+  background-color: black;
+  color: white;
+}
